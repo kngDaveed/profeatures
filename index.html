@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Grid Template Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h3 class=""><i class="fa-solid fa-feather"></i> Kode<span class="kraft">Kraft</span></h3>
+        </div>
+
+        <div class="navbar-items">
+            <ul class="navlist-items">
+                <li class="list-item">
+                    <i class="fa-solid fa-house-laptop"></i> Home
+                </li>
+                <li class="list-item">
+                    <!-- <i class="fa-solid fa-globe"></i> -->
+                    <i class="fa-solid fa-earth-africa"></i>
+                    About
+                </li>
+                <li class="list-item">
+                    <i class="fa-solid fa-cloud"></i>
+                     Service
+                </li>
+                <li class="list-item">
+                    <i class="fa-solid fa-comments"></i> Blog
+                </li>
+                <li class="list-item">
+                    <i class="fa-solid fa-address-book"></i> Contact
+                </li>
+            </ul>
+            <div class="social-links">
+                <span class="">
+                    <i class="fa-brands fa-github"></i>
+                </span>
+                
+                <span class="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+                <span class="">
+                    <i class="fa-brands fa-youtube"></i>
+                </span>
+                
+            </div>
+        </div>
+
+        
+
+        <div class="menu">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </div>
+    </nav>
+
+    <section class="">
+        <div class="home-sect">
+            <div class="home-content">
+                <h1 class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, inventore?
+                </h1>
+                <h3 class="">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis consectetur adipisicing elit. Ipsa, culpa?
+                </h3>
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit beatae illum perspiciatis sapiente cum quis et enim assumenda mollitia vel a voluptatum excepturi quasi, dolor magni corrupti odit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum exercitationem sunt accusantium et illo aperiam optio quasi voluptas modi sequi, cupiditate, vel assumenda numquam animi consequuntur a deleniti maxime?
+                     <br><br>
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quisquam fugiat laudantium porro, voluptate rerum deleniti? Qui, a. Modi a adipisci mollitia iure, quaerat, distinctio ad nobis neque autem et architecto officiis ullam at ipsum fugit fuga excepturi animi doloremque magni quam ea accusamus cupiditate quos? Nobis suscipit vel alias.
+                </p>
+                <button class="btnx">Maximum Effort</button>
+            </div>
+            <div class="home-content">
+                <img src="images/home-img.jpg" alt="" class="">
+            </div>
+        </div>
+    </section>
+
+    <main class="testimonial-grid">
+        <article id="first" class="testimonial grid-col-span-2">
+            <div class="profile">
+                <img src="images/sample01.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur in quod tempora!
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quas, iure dolor dolorem mollitia saepe, veniam nobis deserunt hic sequi commodi provident harum omnis, aspernatur ratione sit cumque culpa esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas amet dicta minus ex laudantium expedita voluptatem quaerat similique deleniti!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas amet dicta minus ex laudantium expedita voluptatem quaerat similique deleniti!
+                </p>
+            </div>
+        </article>
+        <article id="second" class="testimonial">
+            <div class="profile">
+                <img src="images/sample02.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, porro eveniet autem sunt animi similique totam a distinctio deleniti hic. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime distinctio amet eum saepe necessitatibus voluptas esse perspiciatis ab provident quisquam.
+                </p>
+            </div>
+        </article>
+        <article id="third" class="testimonial">
+            <div class="profile">
+                <img src="images/sample03.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, porro eveniet autem sunt animi similique totam a distinctio deleniti hic.
+                </p>
+            </div>
+        </article>
+        <article id="forth" class="testimonial grid-col-span-2">
+            <div class="profile">
+                <img src="images/sample04.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur in quod tempora!
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quas, iure dolor dolorem mollitia saepe, veniam nobis deserunt hic sequi commodi provident harum omnis, aspernatur ratione sit cumque culpa esse.
+                </p>
+            </div>
+        </article>
+        <article id="fifth" class="testimonial">
+            <div class="profile">
+                <img src="images/sample05.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quibusdam non officiis, temporibus ab, velit repellendus inventore architecto in ducimus, perspiciatis voluptas. Suscipit possimus minima et commodi laudantium aperiam aliquam deleniti non! Ea saepe eos atque voluptatibus voluptas, impedit itaque.
+                </p>
+                <div class="cus-play">
+                    <!-- <span class="">
+                        <i class="fa-solid fa-bars-progress"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-instalod"></i>
+                    </span> -->
+                    <span class="">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-figma"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-slack"></i>
+                    </span>
+                    
+                </div>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quibusdam non officiis, temporibus ab, velit repellendus inventore architecto in ducimus, perspiciatis voluptas. Suscipit possimus minima et commodi laudantium aperiam aliquam deleniti non! Ea saepe eos atque voluptatibus voluptas, impedit itaque.
+                </p>
+            </div>
+        </article>
+        
+    </main>
+
+    <section class="">
+        <div class="home-sect">
+            <div class="home-content">
+                <h1 class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, inventore?
+                </h1>
+                <h3 class="">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis consectetur adipisicing elit. Ipsa, culpa?
+                </h3>
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit beatae illum perspiciatis sapiente cum quis et enim assumenda mollitia vel a voluptatum excepturi quasi, dolor magni corrupti odit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum exercitationem sunt accusantium et illo aperiam optio quasi voluptas modi sequi, cupiditate, vel assumenda numquam animi consequuntur a deleniti maxime?
+                     <br><br>
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quisquam fugiat laudantium porro, voluptate rerum deleniti? Qui, a. Modi a adipisci mollitia iure, quaerat, distinctio ad nobis neque autem et architecto officiis ullam at ipsum fugit fuga excepturi animi doloremque magni quam ea accusamus cupiditate quos? Nobis suscipit vel alias.
+                </p>
+                <button class="btnx">Maximum Effort</button>
+            </div>
+            <div class="home-content">
+                <h1 class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, inventore?
+                </h1>
+                <h3 class="">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore blanditiis consectetur adipisicing elit. Ipsa, culpa?
+                </h3>
+                <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis velit beatae illum perspiciatis sapiente cum quis et enim assumenda mollitia vel a voluptatum excepturi quasi, dolor magni corrupti odit deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio eum exercitationem sunt accusantium et illo aperiam optio quasi voluptas modi sequi, cupiditate, vel assumenda numquam animi consequuntur a deleniti maxime?
+                     <br><br>
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quisquam fugiat laudantium porro, voluptate rerum deleniti? Qui, a. Modi a adipisci mollitia iure, quaerat, distinctio ad nobis neque autem et architecto officiis ullam at ipsum fugit fuga excepturi animi doloremque magni quam ea accusamus cupiditate quos? Nobis suscipit vel alias.
+                </p>
+                <button class="btnx">Maximum Effort</button>
+            </div>
+        </div>
+    </section>
+
+    <main class="testimonial-grid">
+        <article id="first" class="testimonial grid-col-span-2">
+            <div class="profile">
+                <img src="images/sample01.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur in quod tempora!
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quas, iure dolor dolorem mollitia saepe, veniam nobis deserunt hic sequi commodi provident harum omnis, aspernatur ratione sit cumque culpa esse. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas amet dicta minus ex laudantium expedita voluptatem quaerat similique deleniti!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quas amet dicta minus ex laudantium expedita voluptatem quaerat similique deleniti!
+                </p>
+            </div>
+        </article>
+        <article id="second" class="testimonial">
+            <div class="profile">
+                <img src="images/sample02.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, porro eveniet autem sunt animi similique totam a distinctio deleniti hic. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime distinctio amet eum saepe necessitatibus voluptas esse perspiciatis ab provident quisquam.
+                </p>
+            </div>
+        </article>
+        <article id="third" class="testimonial">
+            <div class="profile">
+                <img src="images/sample03.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint, porro eveniet autem sunt animi similique totam a distinctio deleniti hic.
+                </p>
+            </div>
+        </article>
+        <article id="forth" class="testimonial grid-col-span-2">
+            <div class="profile">
+                <img src="images/sample04.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur in quod tempora!
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil quas, iure dolor dolorem mollitia saepe, veniam nobis deserunt hic sequi commodi provident harum omnis, aspernatur ratione sit cumque culpa esse.
+                </p>
+            </div>
+        </article>
+        <article id="fifth" class="testimonial">
+            <div class="profile">
+                <img src="images/sample05.png" alt="" class="">
+                <div class="">
+                    <h3 class="">Kevin Powell</h3>
+                    <p class="">4.2k Subscribers</p>
+                </div>
+            </div>
+            <div class="content">
+                <h2 class="testimonial-header">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                </h2>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quibusdam non officiis, temporibus ab, velit repellendus inventore architecto in ducimus, perspiciatis voluptas. Suscipit possimus minima et commodi laudantium aperiam aliquam deleniti non! Ea saepe eos atque voluptatibus voluptas, impedit itaque.
+                </p>
+                <div class="cus-play">
+                    <!-- <span class="">
+                        <i class="fa-solid fa-bars-progress"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-instalod"></i>
+                    </span> -->
+                    <span class="">
+                        <i class="fa-brands fa-github"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-figma"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </span>
+                    <span class="">
+                        <i class="fa-brands fa-slack"></i>
+                    </span>
+                    
+                </div>
+                <p class="testimonial-paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis quibusdam non officiis, temporibus ab, velit repellendus inventore architecto in ducimus, perspiciatis voluptas. Suscipit possimus minima et commodi laudantium aperiam aliquam deleniti non! Ea saepe eos atque voluptatibus voluptas, impedit itaque.
+                </p>
+            </div>
+        </article>
+        
+    </main>
+
+    
+    <script defer src="app.js"></script>
+</body>
+</html>
